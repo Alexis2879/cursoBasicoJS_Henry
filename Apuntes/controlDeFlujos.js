@@ -1,0 +1,26 @@
+// condicionales
+
+function viajar(destino) {
+    if (destino === 'Brasil') {
+        console.log('Gire a la IZQUIERDA');
+    } else if (destino === 'Argentina') {
+        console.log('Gire a la DERECHA');
+    } else {
+        console.log('Nos PERDIMOS');
+    }
+}
+
+//viajar('Brasil');
+//viajar('Argentina');
+//viajar('Peru');
+
+//ejemplo 2
+function puedeManejar(edad) {
+    if (edad >= 18) {
+        console.log(True);
+    } else {
+        console.log(false);
+    }
+}
+
+puedeManejar(17);
